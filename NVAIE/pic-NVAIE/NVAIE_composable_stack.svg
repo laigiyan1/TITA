@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="820" height="545" viewBox="0 0 820 545" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>text { font-family: Arial, Helvetica, sans-serif; }</style>
+  </defs>
+
+  <!-- ===== LEGEND ===== -->
+  <text x="30" y="17" font-size="13" font-style="italic" fill="#333">
+    Composable stack — assemble based on your use case
+  </text>
+  <rect x="590" y="5" width="24" height="13" rx="2"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <text x="618" y="16" font-size="11.5" fill="#444">Per use case</text>
+  <rect x="715" y="5" width="24" height="13" rx="2"
+        fill="#76b900" stroke="#538700" stroke-width="1.8"/>
+  <text x="743" y="16" font-size="11.5" fill="#444">Foundation</text>
+
+
+  <!-- ================================================================ -->
+  <!-- APPLICATION DEVELOPMENT                                          -->
+  <!-- ================================================================ -->
+  <rect x="20" y="26" width="780" height="233" rx="8"
+        fill="#f0f7e2" stroke="#76b900" stroke-width="2"/>
+  <text x="36" y="52" font-size="16" font-weight="700"
+        font-style="italic" fill="#1a1a1a">Application Development</text>
+
+  <!-- NIM Microservices (full width — per use case, dashed) -->
+  <rect x="36" y="62" width="748" height="50" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="36" y="63" width="5" height="48" fill="#76b900"/>
+  <text x="52" y="82" font-size="13" font-weight="700"
+        fill="#76b900">NIM Microservices</text>
+  <text x="52" y="98" font-size="11.5"
+        fill="#555555">Nemotron, Cosmos, and other models across domains and modalities</text>
+
+  <!-- Dashed connectors: NIM feeds into domain-specific toolkits -->
+  <line x1="157" y1="112" x2="157" y2="124"
+        stroke="#c8c8c8" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="407" y1="112" x2="407" y2="124"
+        stroke="#c8c8c8" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="660" y1="112" x2="660" y2="124"
+        stroke="#c8c8c8" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- NeMo (column 1 of 3 — per use case, dashed) -->
+  <rect x="36" y="124" width="242" height="75" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="36" y="125" width="5" height="73" fill="#76b900"/>
+  <text x="52" y="145" font-size="13" font-weight="700"
+        fill="#76b900">NeMo Microservices &amp; Tools</text>
+  <text x="52" y="163" font-size="11.5"
+        fill="#555555">for Agentic AI training, customization,</text>
+  <text x="52" y="178" font-size="11.5"
+        fill="#555555">and inference</text>
+
+  <!-- Omniverse (column 2 of 3 — per use case, dashed) -->
+  <rect x="286" y="124" width="242" height="75" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="286" y="125" width="5" height="73" fill="#76b900"/>
+  <text x="302" y="145" font-size="13" font-weight="700"
+        fill="#76b900">Omniverse Libraries, Microservices,</text>
+  <text x="302" y="161" font-size="13" font-weight="700"
+        fill="#76b900">&amp; Frameworks</text>
+  <text x="302" y="179" font-size="11.5"
+        fill="#555555">for physical AI</text>
+
+  <!-- AI Frameworks & ML Libraries (column 3 of 3 — per use case, dashed) -->
+  <rect x="536" y="124" width="248" height="75" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="536" y="125" width="5" height="73" fill="#76b900"/>
+  <text x="552" y="145" font-size="13" font-weight="700"
+        fill="#76b900">AI Frameworks &amp; ML Libraries</text>
+  <text x="552" y="163" font-size="11.5"
+        fill="#555555">for speech, vision, data analytics,</text>
+  <text x="552" y="178" font-size="11.5"
+        fill="#555555">and more</text>
+
+  <!-- CUDA-X & CUDA (solid green platform bar) -->
+  <rect x="36" y="206" width="748" height="42" rx="5"
+        fill="#76b900" stroke="#538700" stroke-width="1.5"/>
+  <text x="410" y="222" text-anchor="middle" font-size="14" font-weight="700"
+        fill="#ffffff">CUDA-X &amp; CUDA</text>
+  <text x="410" y="239" text-anchor="middle" font-size="11"
+        fill="#e8f5d0">GPU-accelerated libraries and computing platform</text>
+
+
+  <!-- ================================================================ -->
+  <!-- CONNECTOR                                                        -->
+  <!-- ================================================================ -->
+  <text x="410" y="275" text-anchor="middle"
+        font-size="12" font-weight="600" fill="#333333">runs on</text>
+  <line x1="410" y1="280" x2="410" y2="294"
+        stroke="#333333" stroke-width="2"/>
+  <polygon points="405,290 410,299 415,290" fill="#333333"/>
+
+
+  <!-- ================================================================ -->
+  <!-- INFRASTRUCTURE MANAGEMENT                                        -->
+  <!-- ================================================================ -->
+  <rect x="20" y="302" width="780" height="232" rx="8"
+        fill="#ebebeb" stroke="#76b900" stroke-width="2"/>
+  <text x="36" y="328" font-size="16" font-weight="700"
+        font-style="italic" fill="#1a1a1a">Infrastructure Management</text>
+
+  <!-- Run:ai (full width — per use case, dashed) -->
+  <rect x="36" y="338" width="748" height="54" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="36" y="339" width="5" height="52" fill="#76b900"/>
+  <text x="52" y="359" font-size="13" font-weight="700"
+        fill="#76b900">Run:ai</text>
+  <text x="52" y="376" font-size="11.5"
+        fill="#555555">for orchestrating AI workloads and maximizing GPU utilization</text>
+
+  <!-- Virtualization (column 1 of 2 — per use case, dashed) -->
+  <rect x="36" y="402" width="370" height="58" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="36" y="403" width="5" height="56" fill="#76b900"/>
+  <text x="52" y="427" font-size="12" font-weight="700"
+        fill="#76b900">vGPU, Multi-Instance GPU (MIG)</text>
+  <text x="52" y="447" font-size="11.5"
+        fill="#555555">for GPU sharing and partitioning across workloads</text>
+
+  <!-- Management (column 2 of 2 — per use case, dashed) -->
+  <rect x="414" y="402" width="370" height="58" rx="5"
+        fill="#ffffff" stroke="#76b900" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="414" y="403" width="5" height="56" fill="#76b900"/>
+  <text x="430" y="427" font-size="12" font-weight="700"
+        fill="#76b900">Kubernetes Operators, Base Command Manager</text>
+  <text x="430" y="447" font-size="11.5"
+        fill="#555555">for deploying and managing GPU infrastructure at scale</text>
+
+  <!-- Drivers (full width — FOUNDATION, solid green fill) -->
+  <rect x="36" y="470" width="748" height="50" rx="5"
+        fill="#76b900" stroke="#538700" stroke-width="1.5"/>
+  <text x="410" y="490" text-anchor="middle" font-size="14" font-weight="700"
+        fill="#ffffff">Drivers</text>
+  <text x="410" y="507" text-anchor="middle" font-size="11"
+        fill="#e8f5d0">optimize utilization of NVIDIA GPUs and Networking in bare metal and virtualized environments</text>
+
+</svg>
